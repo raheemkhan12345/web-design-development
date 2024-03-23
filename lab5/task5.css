@@ -1,0 +1,384 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first_line img{
+    width: 45%;
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-top: 3px;
+
+}
+.first_line ul{
+    display: flex;
+    list-style: none;
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+}
+.first_line ul li{
+    margin-bottom: 50px;
+    font-weight: 700;
+    padding-right: 2px;
+}
+.first_line{
+    background-color: white;
+    height: 50px;
+    padding-top: 7px;
+}
+.first_line ul li button{
+    background-color: #ffbf00;
+    width: 80px;
+    height: 30px;
+    border: 0;
+    color: white; 
+}
+.second_line{
+    background-color: 	#808080;
+    color: white;
+    padding-top: 50px ;
+    padding-bottom: 70px;
+    padding-left: 30px;
+    
+}
+.second_line h1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 320px;
+}
+.second_line button{
+    background-color: black;
+    color: white;
+    border: 0;
+    height: 27px;
+    width: 80px;
+    font-size: x-small;
+    border-radius: 2px;
+}
+.second_line div{
+    background-color: #c39b22;
+     height: 90%;
+     width: 243px;
+     padding-left: 50px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     box-sizing: border-box;
+     border-radius: 2px;
+    
+}
+.submit_form{
+    justify-items: center;
+    text-align: center;
+    margin-top: -32px;
+}
+.submit_form div{
+    background-color: #ffbf00;
+    height: 60px;
+    width: 720px;
+    padding-top: 18px;
+    margin-left: 125px;
+    padding-right: 75px;
+    
+    
+
+}
+.submit_form input{
+    width: 169px;
+    height: 27px;
+    border: 0;
+    padding-left: 5px;
+    font-size: x-small;
+    margin-left: 5px;
+}
+.submit_form div button{
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: xx-small;
+    border: 0;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+.third_line{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 0;
+    margin-top: 60px;
+}
+.third_line .qualified_teach1 {
+    border-right-style: solid;
+    border-width: thin;
+    border-color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-right: 15px;
+    padding-left: 15px;
+     border-bottom-style: solid;
+     padding-bottom: 15px;
+    
+}
+.third_line .qualified_teach1 h3{
+    padding-bottom: 10px;
+    
+}
+.third_line .qualified_teach2{
+    border-right-style: solid;
+    border-width: thin;
+    border-color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-right: 15px;
+    border-bottom-style: solid; 
+    padding-left: 15px;
+}
+.third_line .qualified_teach2 h3{
+    padding-bottom: 10px;
+}
+
+.third_line .qualified_teach3{
+    border-width: thin;
+    border-color: rgb(168, 166, 166);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-bottom-style: solid; 
+}
+.third_line .qualified_teach3 h3{
+    padding-bottom: 10px;
+}
+.third_line .qualified_teach1 p{
+    font-size: xx-small;
+}
+.third_line .qualified_teach2 p{
+    font-size: xx-small;
+}
+.third_line .qualified_teach3 p{
+    font-size: xx-small;
+}
+.popular_course{
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+.popular_course h3{
+    padding-bottom: 10px;
+}
+.popular_course p{
+    font-size: x-small;
+}
+
+.popular_course1 img{
+    width: 170px;
+    height: 100px;
+    margin-bottom: 3px;
+
+
+}
+.popular_course1 button{
+    width: 70px;
+    height: 25px;
+    margin-right: 162px;
+    margin-left: -167px;
+}
+.popular_course1 .button1{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course1 .button2{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course1 p{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.popular_course1 div img{
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    padding-top: 10px;
+}
+.popular_course1 .hasibur_rahman h6{
+    padding-left: 70px;
+    margin-bottom: 7px;
+    margin-top: -60px;
+}
+.popular_course1 .hasibur_rahman p{
+    padding-left: 70px;
+}
+/* copy1 */
+
+.popular_course2 img{
+    width: 170px;
+    height: 100px;
+    margin-bottom: 3px;
+
+
+}
+.popular_course2 button{
+    width: 70px;
+    height: 25px;
+    margin-right: 162px;
+    margin-left: -167px;
+}
+.popular_course2 .button1{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course2 .button2{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course2 p{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.popular_course2 div img{
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    padding-top: 10px;
+}
+.popular_course2 .hasibur_rahman h6{
+    padding-left: 70px;
+    margin-bottom: 7px;
+    margin-top: -60px;
+}
+.popular_course2 .hasibur_rahman p{
+    padding-left: 70px;
+}
+/* copy2 */
+.popular_course3 img{
+    width: 170px;
+    height: 100px;
+    margin-bottom: 3px;
+
+
+}
+.popular_course3 button{
+    width: 70px;
+    height: 25px;
+    margin-right: 162px;
+    margin-left: -167px;
+}
+.popular_course3 .button1{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course3 .button2{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    background-color: #ffd11a;
+    border-color: #e4d6a5fc;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.popular_course3 p{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.popular_course3 div img{
+    border-radius: 50%;
+    width: 60px;
+    height: 70px;
+    padding-top: 10px;
+}
+.popular_course3 .hasibur_rahman h6{
+    padding-left: 70px;
+    margin-bottom: 7px;
+    margin-top: -60px;
+}
+.popular_course3 .hasibur_rahman p{
+    padding-left: 70px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    padding-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.section .popular_course1{
+    margin-left: 25px;
+    margin-right: -115px;
+}
+.section .popular_course2{
+    margin-right: -115px;
+}
+
+.footer {
+    background-color:#262626 ;
+    margin-top: 50px; 
+    display: flex;
+}
+.footer .img_paragraph{
+    color: white;
+    font-size: x-small;
+    padding-top: 25px;
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img_paragraph img{
+    padding-top: 20px;
+    width: 85px;
+}
+ .impt_link{
+    color: white;
+    padding-left: 70px;
+    padding-top: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.impt_link span{
+    font-size: x-small;
+    padding-left: 5px;
+}
+.map img{
+    width: 270px;
+    margin-left: 125px;
+    margin-top: 44px;
+}
+.map p{
+    font-size: xx-small;
+    padding-left: 130px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
