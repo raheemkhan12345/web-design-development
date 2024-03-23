@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(#2c9fdcde, black);
+    height: 105px;
+}
+.section{
+    background-color: lightgray;
+}
+.section video{
+    margin-top: -6px;
+    margin-left: 35%;
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(234, 233, 233);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.section button{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: x-small; 
+    border-radius: 20px;
+    width: 110px;
+    height: 25px;
+    color: white;
+    margin-left: 46%;
+    background-color: rgb(237, 155, 1);
+    border-width: 0;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+.doctor_profile img {
+    border-radius: 50%;
+    width: 65px;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+.doctor_profile {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.doctor_profile h4{
+    width: 120px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #b2abab;
+    font-size: 12px;
+}
+.doctor_profile p{
+    font-size: 7px;
+}
+.doctor_profile .profile{
+    margin-left: 433px;
+    margin-top: -70px;
+}
+.footer {
+    background-color: lightgray;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+.footer p{
+    text-align: center;
+    color: #545151;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.footer div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+    padding-top: 10px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+  
